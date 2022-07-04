@@ -42,7 +42,7 @@ const initAuth = () => {
             path: '/',
             sameSite: 'strict',
             secure: process.env.NEXT_PUBLIC_COOKIE_SECURE === 'true',
-            signed: true,
+            // signed: true,
         },
     })
 }
