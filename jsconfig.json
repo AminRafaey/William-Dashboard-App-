@@ -1,0 +1,7 @@
+//? ALLOWS FOR ABSOLUTE PATHS
+
+{
+    "compilerOptions": {
+        "baseUrl": "."
+    }
+}

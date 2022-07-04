@@ -1,0 +1,44 @@
+{
+    "name": "reactstartupkit-dashboard",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev -p 6688",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@fontsource/inter": "^4.5.7",
+        "@headlessui/react": "^1.5.0",
+        "@heroicons/react": "^1.0.6",
+        "@mantine/core": "^4.1.2",
+        "@mantine/hooks": "^4.1.2",
+        "@mantine/next": "^4.1.2",
+        "@mantine/notifications": "^4.1.2",
+        "@tailwindcss/forms": "^0.5.0",
+        "@tailwindcss/line-clamp": "^0.3.1",
+        "axios": "^0.26.1",
+        "firebase": "^8.9.1",
+        "firebase-admin": "^9.11.1",
+        "javascript-time-ago": "^2.3.13",
+        "mongodb": "^4.5.0",
+        "next": "12.1.4",
+        "next-firebase-auth": "^0.14.3",
+        "next-themes": "^0.1.1",
+        "react": "18.0.0",
+        "react-countup": "^6.2.0",
+        "react-dom": "18.0.0",
+        "react-ionicons": "^4.2.0",
+        "react-time-ago": "^7.1.9",
+        "styled-components": "^5.3.5",
+        "swr": "^1.2.2"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.4",
+        "eslint": "8.12.0",
+        "eslint-config-next": "12.1.4",
+        "postcss": "^8.4.12",
+        "tailwindcss": "^3.0.23"
+    }
+}
